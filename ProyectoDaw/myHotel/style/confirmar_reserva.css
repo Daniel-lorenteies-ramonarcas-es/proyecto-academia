@@ -1,0 +1,546 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body{
+
+  font-weight: bold;
+}
+
+form{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 245, 247);
+  margin: 2rem;
+  border: solid 1px black;
+    /* flex-direction: row; */
+    /* border: solid 2px red; */
+    /* background-color: rgb(218, 223, 226); */
+      /* display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "datosusuario datosusuario"
+        "fechas informacion"
+        "datoshotel informacion"
+        "datoshotel informacion"
+        "botones botones"; */
+    }
+    
+    .datosusuario { grid-area: datosusuario; 
+    margin: 1.5rem;
+    
+    }
+  
+    
+    .fechas { grid-area: fechas; 
+    display: flex;
+    flex-direction: row;
+    /* gap: 4.3rem; */
+    margin-left: 1rem;
+    /* margin-top: 1rem; */
+    }
+    .fechaentrada{
+      display: flex;
+      flex-grow: 1; 
+      margin-left: 1rem;
+      /* justify-content: center; */
+      text-align: center;
+      align-items: center;
+    }
+
+    .fechasalida{
+      display: flex;
+     flex-grow: 1;
+     margin-left: 1rem; 
+     /* justify-content: center; */
+      text-align: center;
+      align-items: center;
+    }
+
+    
+
+    input[type=date]{
+      width: 150px;
+      background-color: rgb(228, 239, 146);
+    }
+
+   
+    
+    
+    
+    
+
+
+/* {
+   
+      
+} */
+/* .formulario {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "titulo titulo titulo"
+    "datos-usuario datos-usuario datos-usuario"
+    "metodo_pago metodo_pago metodo_pago"
+    "datohotel datohotel datohotel"
+    "botones botones botones";
+} */
+
+
+
+
+  .boton-enviar {
+    background-color:var(--bg-color-input);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    /* border-radius: 20px; */
+    font-size: 1.2rem;
+  
+  }
+  
+  a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+
+  .dni{
+    /* padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(254, 254, 254); */
+    margin-left: 1rem;
+  }
+
+  .nombrecompleto{
+    
+    flex-direction: row;
+   /* display: flex;
+   gap: 3rem; */
+   /* margin-left: 1rem; */
+  }
+
+
+
+  /* .tlf_correo{
+    display: flex;
+    flex-direction: row;
+  } */
+.nombre{
+ 
+  flex-direction: row;
+  margin-left: 1rem;
+  
+}
+.apellidos{
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: row;
+ /* gap: 5rem; */
+}
+.telefono{
+  display: flex;
+  flex-direction: row; 
+  margin-left: 1rem;
+  
+}
+.correo{
+  display: flex;
+    flex-direction: row;
+  margin-left: 1rem;
+}
+.label{
+
+}
+
+.numerotarjeta{
+  margin-left: 1rem;
+}
+
+.fila1{
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+  font-size: 1.2rem;
+}
+
+.direccionhotel{
+  flex-grow: 1;
+  margin-left: 1rem;
+  
+}
+
+.nombrehotel{
+  flex-grow: 1;
+  background-color: rgb(242, 245, 247);
+  border: 0;
+  margin-left: 1rem;
+  border-right: solid 1px black;
+}
+
+.precio{
+  border: 0;
+  background-color: rgb(242, 245, 247);
+  flex-grow: 1;
+
+}
+
+.tlfhotel{
+  border: 0;
+  color: black;
+  font-weight: bold;
+}
+
+.telefonohotel{
+  background-color: rgb(242, 245, 247);
+  border: 0;
+  flex-grow: 1;
+  margin-left: 1rem;
+  border-right: solid 1px black;
+  margin-right: 3rem;
+  justify-content: center;
+  
+}
+
+.fila3{
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+  font-size: 1.2rem;
+  
+}
+
+.fila2{
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+  font-size: 1.2rem;
+ /* display: flex;
+ gap: 3rem; */
+ /* margin-left: 1rem; */
+}
+
+
+.fila4{
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+  font-size: 1.2rem;
+ /* display: flex;
+ gap: 3rem; */
+ /* margin-left: 1rem; */
+}
+
+.fila4{
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+  font-size: 1.2rem;
+ /* display: flex;
+ gap: 3rem; */
+ /* margin-left: 1rem; */
+}
+.num_personas{
+  color: black;
+  font-weight: bold;
+}
+
+.num_habitaciones{
+  color: black;
+  font-weight: bold;
+}
+
+.numeropersonas{
+  display: flex;
+  flex-grow: 1;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  border-right: solid 1px black;
+  /* margin-left: 1rem; */
+
+ /* text-align: left; */
+}
+.numerohabitaciones{
+  font-weight: bold;
+  flex-grow: 1;
+  margin-left: 1rem;
+  /* text-align: right; */
+}
+
+.precio{
+  background-color: rgb(242, 245, 247);
+  border: 0;
+  flex-grow: 1;
+  
+  /* margin-left: 1rem; */
+}
+
+.preciototal{
+  background-color: rgb(242, 245, 247);
+  border: 0;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+
+}
+
+
+.precio_total{
+  margin-left: 1rem;
+  /* border: solid 2px black; */
+  
+}
+
+/* .precio_total,.apellidos ,.preciototal,.precio,.numerohabitaciones,.dni { */
+  /* width: 80%; */
+  /* font-size: 1.2rem; */
+   /* padding: 5px 10px; */
+   /* border: 1px solid #ccc; */
+  /* margin-left: 1rem;*/
+ /* background-color: rgb(242, 245, 247);
+  margin: 8px 0;  
+  display: inline-block;
+  
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  opacity: 0.8; 
+  
+} */
+  
+  input[type=text], input[type=date] ,input[type=email] {
+    /* width: 80%; */
+    /* font-size: 1.2rem; */
+     padding: 5px 10px; 
+     /* border: 1px solid #ccc; */
+     margin-left: 1rem;
+   background-color: rgb(242, 245, 247);
+    margin: 8px 0;  
+    display: inline-block;
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 20px; 
+    font-size: 1rem;
+    opacity: 0.8; 
+    
+  }
+  .precio_dia{
+    border: 0;
+    opacity: 1; 
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  .precio_total{
+    border: 0;
+    color: rgb(21, 171, 195);
+    opacity: 1; 
+    font-weight: bold;
+    
+  }
+  .precio{
+    border: 0;
+  }
+  input[type=number]{
+    /* border: none;
+    outline: none;
+      */
+      margin: 8px 0;  
+      display: inline-block;
+      
+      box-sizing: border-box;
+      text-decoration: none;
+      border-radius: 20px;
+      font-size: 1rem;
+      opacity: 0.8; 
+      background-color: rgb(242, 245, 247);
+      border: 0;
+    /* padding: 5px 10px;
+    margin: 8px 0; */
+    font-size: 1rem;
+    margin-left: 1rem;
+    /* border-bottom: solid 1.5px black; */
+  }
+
+
+  h2{
+    text-align: center;
+  }
+  
+  button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    /* width: 80%; */
+    border-radius: 20px;
+    font-size: 1.2rem;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.8;
+  }
+
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  .informacion{
+
+    width: 85%;
+    height: 65%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    /* margin-left: 1rem; */
+  }
+
+  .descripcion{
+
+    font-size: 1.2rem;
+    width: 90%;
+    height: 90%;
+    margin-left: 1rem;
+  }
+
+  .botones{
+    display: flex;
+    flex-direction: row;
+    /* border-top: solid 1px black; */
+    width: 100%;
+    height: 100%;
+    justify-content: space-between; 
+    margin-bottom: 2rem;
+  }
+  /* .volver{
+    /* width: 20%;
+    height: 40%; */
+/*     
+    width: 50%;
+    justify-content: center;
+    margin-left: 3rem;
+    background-color: rgb(0, 99, 239);
+    border-radius:20px;
+    align-items: center;
+  } */ 
+
+  .volver{
+    display: flex;
+    height: 30px;
+    /* flex-grow: 1; */
+    /* background-color:var(--bg-color-input);
+    background-color: rgb(88, 88, 197);
+    border: 0;
+    border-radius: 20px;
+    text-decoration: none;
+    width: 30%;
+    justify-content: left;
+    /* margin-bottom: 1.5rem; */
+    /* font-size: 1.5rem; */
+    background-color: rgb(109, 109, 220); 
+    width: 200px;
+    border-radius:20px ;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .enlace{
+   justify-content: center;
+   margin-bottom: 1rem;
+    
+  }
+
+
+  .botonvolver{
+    flex-grow: 1;
+    display:  flex;
+    /* background-color: rgb(88, 88, 197);  */
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 7rem ;
+    background-color: rgb(255, 255, 255);
+    /* flex-grow: 1;
+    width: 30px;
+    height: 100%;
+    justify-content: center;
+    align-items: right;
+    text-align: center; */
+    /* margin-left: 2rem; */
+    /* margin-bottom: 2rem; */
+    /* background-color: rgb(88, 88, 197); */
+    /* font-size: 4rem; */
+
+  }
+
+  .botonconfirmar{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: rgb(255, 255, 255);
+    /* flex-grow: 1;
+    width: 30px;
+    
+    justify-content: center;
+    align-items: right;
+    text-align: center;
+    margin-right: 2rem;
+    /* margin-bottom: 2rem; */
+    /* background-color: rgb(88, 88, 197); */
+    /*font-size: 4rem; */
+    
+    
+  }
+  /* .botonvolver{
+    height: 100%;
+    flex-grow: 1;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border:20px;
+    
+    display: flex;
+  } */
+
+  .confirmar{
+    height: 30px;
+    margin-right: 8rem ;
+    width: 120px;
+    font-size: 1.5rem;
+    background-color: rgb(101, 101, 249); 
+    border: 0;
+    border-radius: 20px;
+    /* height: 150; */
+    /* width: 40%;
+    font-size: 1.5rem;
+    background-color: rgb(88, 88, 197);
+
+    
+    justify-content: right; */
+  }
+
+.error{
+  margin-left: 3rem;
+  color: red;
+  font-weight: bold;
+  /* width: 50%;
+  height: 20px; */
+}
+

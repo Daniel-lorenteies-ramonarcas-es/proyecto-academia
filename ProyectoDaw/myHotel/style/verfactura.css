@@ -1,0 +1,73 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body{
+    
+    
+    min-height: 100vh;
+}
+
+.factura{
+    border: solid 1px black;
+    margin: 1.5rem;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    height: 70%;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    margin: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+tr{
+    display: flex;
+    width: 90%;
+    padding: 0.3rem;
+    border: solid 1px black;
+}
+
+td{
+    flex-grow: 1;
+    width: 90%;
+   
+}
+
+
+button {
+    display: flex;
+   align-items: left;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    /* width: 80%; */
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background-color: rgb(88, 88, 197);
+  }
+
+  a:hover {
+    opacity: 0.8;
+   
+    color: rgb(0, 0, 0);
+  }
+
+  .boton-volver{
+    justify-content: left;
+  }
+
+  a{
+    text-decoration: none;
+     
+  }

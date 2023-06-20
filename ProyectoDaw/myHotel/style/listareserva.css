@@ -1,0 +1,494 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+/* img{
+  width: 100%;
+  height: 100%;
+  
+} */
+
+body{
+  min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr; 
+      grid-template-rows: 0.3fr 2fr 0.7fr; 
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          "banner banner banner"
+          "reservas reservas reservas"
+          "footer footer footer";
+    }
+
+    .banner { grid-area: banner; }
+      
+    .reservas { grid-area: reservas;
+        /* margin-top: 2rem; */
+        /* margin-right: 2rem; 
+        margin-left: 2rem; */
+    width: 100%;
+    grid-area: reservas;
+    justify-content: center;
+    flex-direction: column;
+   
+    }
+    
+    .footer { grid-area: footer;
+        width: 100%; }
+
+/* table{
+    border-radius: 5%;
+    
+}
+
+th{
+    gap: 2rem;
+} */
+
+img{
+    border-top-left-radius :20px ; 
+    border-bottom-left-radius :20px ; 
+}
+
+.reservas{
+
+  margin-top: 2rem;
+
+}
+
+.nombre-fecha{
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    color: black;
+    
+}
+
+.datos-reserva{
+    display: flex;
+    flex-direction: row;
+}
+
+.hotel{
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.reserva{
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    margin: 2rem;
+    margin-left: 2rem;
+    /* margin-top: 2rem;
+    margin-right: 2rem; 
+    margin-left: 2rem; */
+    
+}
+
+.datos-reserva{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.precio-reserva{
+    /* margin-right: 4rem;
+    font-size: 1.5rem; */
+    /* margin: 0.5rem; */
+    color: black;
+}
+
+.botones{
+    flex-grow: 1;
+    display: flex;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    align-items: center;
+    flex-direction: row;
+   justify-content: space-between;
+    
+    
+}
+.nombre{
+    display: flex;
+    flex-direction: row;
+}
+
+.borrar{
+    font-size: 1.2rem;
+    justify-content: center;
+    background-color: rgb(191, 91, 91);
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+}
+.enlace{
+    color: white;
+}
+.modificar{
+    font-size: 1.2rem;
+    justify-content: center;
+    background-color: rgb(91, 134, 191);
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+}
+
+.pdf{
+    font-size: 1.2rem;
+    justify-content: center;
+    background-color: rgb(91, 134, 191);
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+}
+
+body{
+    /* min-height:100vh; */
+    /* display: grid; 
+    grid-template-columns: 0.9fr 1.1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1.4fr 0.6fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "encabezado encabezado encabezado"
+      "datos form form"
+      "datos form form"
+      "datos form form"
+      "footer footer footer";  */
+} 
+
+/* .container {  display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr;
+    grid-template-rows: 0.4fr 2.2fr 0.4fr;
+    gap: 9px 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "banner banner banner"
+      "datos form form"
+      "footer footer footer";
+  }
+  
+  .header { grid-area: header; }
+  
+  .form {  display: grid;
+    grid-template-columns: 1fr 0.9fr 1.5fr 0.6fr 1fr;
+    grid-template-rows: 0.5fr 1.5fr 0.8fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "img img titulo titulo titulo"
+      "img img informacion informacion informacion"
+      "img img precio enviar enviar";
+    grid-area: form;
+  }
+  
+  .img {
+    justify-self: center;
+    align-self: center;
+    grid-area: img;
+    width: 80%;
+    height: 85%;
+  }
+  
+  .titulo { grid-area: titulo; }
+  
+  .informacion {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . ."
+      "descripcion descripcion descripcion"
+      "descripcion descripcion descripcion";
+    grid-area: informacion;
+  }
+  
+  .descripcion {
+    justify-self: center;
+    align-self: center;
+    grid-area: descripcion;
+    width: 90%;
+    height: 90%;
+  }
+  
+  .precio {
+    justify-self: center;
+    align-self: center;
+    grid-area: precio;
+    width: 85%;
+    height: 85%;
+  }
+  
+  .enviar {
+    justify-self: end;
+    align-self: center;
+    grid-area: enviar;
+    width: 85%;
+    height: 50%;
+  }
+  
+  .datos { grid-area: datos; }
+  
+  .footer { grid-area: footer; } */
+  
+
+.container  {  display: grid;
+    min-height: 100vh;
+        grid-template-columns: 0.5fr 1.1fr 1fr;
+        grid-template-rows: 0.4fr 2.2fr 0.4fr;
+        /* gap: 9px 20px; */
+        grid-auto-flow: row;
+        grid-template-areas:
+          "banner banner banner"
+          "datos form form"
+          "footer footer footer";
+      }
+      
+      .header { grid-area: header; 
+        /* height: 100%;
+        width: 100%; */
+      }
+      
+      .form { grid-area: form; }
+      
+      .datos { grid-area: datos; }
+      
+      .footer { grid-area: footer;
+        z-index: 10; 
+        align-self: end; 
+       
+    }
+        
+  
+  /* .encabezado { grid-area: encabezado; } */ 
+  input[type=submit] {
+    background-color: rgb(27, 98, 180);
+  color: rgb(215, 189, 189);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  /* width: 45%; */
+  border-radius: 20px;
+
+
+  }
+  
+  .banner{
+    flex-grow: 1;
+    width: 100%;
+    position: fixed; 
+    z-index: 10;
+    grid-area:banner;
+  }
+
+.datos{
+    margin-top: 80px;
+    height: 90%;
+    width: 250px;
+    position: fixed; 
+    z-index: -1; 
+    grid-area: datos;
+    background-color: rgb(186, 223, 223);
+    margin-right: 2rem;
+    /* border-top-right-radius: 20px; */
+    /* border-bottom-right-radius: 20px; */
+    /* box-shadow: 10px 5px 5px 0px rgba(177,185,232,1);
+    box-shadow: 10px 5px 5px 0px rgba(177,185,232,1);
+    box-shadow: 10px 5px 5px 0px rgba(177,185,232,1); */
+}
+
+.hoteles{
+    display: flex;
+    grid-area:hoteles;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.formhotel{
+    justify-self: center; 
+    align-self: center; 
+    margin-left: 1rem;
+    margin: 1rem;
+   font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px 0px rgba(177,185,232,1);
+    box-shadow: 10px 5px 5px 0px rgba(177,185,232,1);
+    box-shadow: 10px 5px 5px 0px rgba(177,185,232,1);
+    background-color: rgb(255, 227, 182);
+}
+
+.formhotel {  
+    
+    height: 60%;
+    margin-right: 1.5rem;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1.6fr 1.4fr 1fr;
+    grid-template-rows: 0.5fr 1.7fr 0.8fr;
+    gap: 5px ,1.4px; 
+    grid-auto-flow: row;
+    grid-template-areas:
+      "img titulo titulo titulo"
+      "img informacion informacion informacion"
+      "img datosnumeros precio  enviar";
+    /* margin: 1rem;
+    padding: 1rem; */
+  }
+  
+  .datosnumeros{
+    width: 100%;
+    height: 100%;
+    align-self: end;
+    grid-area: datosnumeros;
+    font-size: 1rem;
+    margin-left: 0.6rem;
+    /* border: solid 1px ; */
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    justify-self: left;
+    align-self: center;
+    grid-area: img;
+    /* width: 45%;
+    height: 40%; */
+    
+  }
+  
+  .titulo { grid-area: titulo; 
+    margin-left: 0.6rem;
+  }
+  
+  .enviar {
+    justify-self: center;
+    align-self: center;
+    grid-area: enviar;
+    width: 85%; 
+    height: 100%;
+    margin-left: 1rem;
+
+  }
+  
+  .preciodia{
+    
+  }
+
+  .precio {
+    width: 100%;
+
+    justify-self: center;
+    text-align: right;
+    grid-area: precio;
+    text-decoration:solid;
+    /* width: 65%;
+    height: 65%; */
+    align-self: center;
+    font-size: 1.7rem;
+    margin-left: 0.6rem;
+  }
+  
+  .informacion { grid-area: informacion;
+    margin-left: 0.6rem;
+   }
+  
+
+   .footer{
+    margin-top: 5rem;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    height: 70px;  
+    background-color: #bab4b4;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; */
+    text-align: center;
+    align-items : center;
+    z-index: 1;
+  }
+  
+  
+
+
+
+
+li{
+    text-decoration: none;
+    list-style-type: style none;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(156, 141, 141);
+}
+
+a:hover{
+    transition: 1s;
+}
+
+header ul li a:hover{
+    color: #000000;
+}
+
+
+.container-header{
+    width: 100%;
+    
+    display: flex;
+    /* gap: 2rem; */
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.header-logo{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 250px;
+}
+
+.nav-menu{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: solid 1px; */
+    text-decoration: none;
+    list-style: none;
+    font-size:16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+header{
+    flex-grow: 1;
+    background-color: rgb(214, 238, 238);
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px; */
+}
+
+
